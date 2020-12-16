@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tuple.axhline" />
+          <option value="tuple.axvline" />
+          <option value="tuple.plot" />
+          <option value="tuple.legend" />
+          <option value="tuple.set_ylabel" />
+          <option value="tuple.set_xticks" />
+          <option value="tuple.set_xticklabels" />
+          <option value="tuple.set_xlim" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
