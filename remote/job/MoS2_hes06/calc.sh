@@ -9,7 +9,3 @@ cbm=$(echo $(echo "$vbm-$gap")|bc)
 echo -e "vbm:-$vbm\ncbm:-$cbm\n"
 
 
-
-
-
-
