@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#PBS -N VS2-Cu-O
+#PBS -l nodes=1:ppn=28
+#PBS -q batch
+#PBS -V
+
+
+cd $PBS_O_WORKDIR
+NP=`cat $PBS_NODEFILE | wc -l`
+NN=`cat $PBS_NODEFILE | sort | uniq | tee /tmp/nodes.$$ | wc -l`
+cat $PBS_NODEFILE > /tmp/nodefile.$$
+mpirun -genv I_MPI_DEVICE ssm -machinefile /tmp/nodefile.$$ -n $NP python screen.py
+rm -rf /tmp/nodefile.$$
+rm -rf /tmp/nodes.$$
+

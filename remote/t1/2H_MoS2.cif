@@ -1,0 +1,74 @@
+data_2H_MoS2
+_audit_creation_date              2020-10-21
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    6.3660
+_cell_length_b                    6.3660
+_cell_length_c                    15.0000
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 120.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+S1     S     0.33333   0.16667   0.39822   0.01267  Uiso   1.00
+S2     S     0.33333   0.16667   0.60671   0.01267  Uiso   1.00
+Mo3    Mo    0.16667   0.33333   0.50247   0.01267  Uiso   1.00
+S4     S     0.83333   0.16667   0.39822   0.01267  Uiso   1.00
+S5     S     0.83333   0.16667   0.60671   0.01267  Uiso   1.00
+Mo6    Mo    0.66667   0.33333   0.50247   0.01267  Uiso   1.00
+S7     S     0.33333   0.66667   0.39822   0.01267  Uiso   1.00
+S8     S     0.33333   0.66667   0.60671   0.01267  Uiso   1.00
+Mo9    Mo    0.16667   0.83333   0.50247   0.01267  Uiso   1.00
+S10    S     0.83333   0.66667   0.39822   0.01267  Uiso   1.00
+S11    S     0.83333   0.66667   0.60671   0.01267  Uiso   1.00
+Mo12   Mo    0.66667   0.83333   0.50247   0.01267  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+S1     Mo9     2.413   1_545 S
+S1     Mo6     2.413   .     S
+S1     Mo3     2.413   .     S
+S2     Mo9     2.413   1_545 S
+S2     Mo6     2.413   .     S
+S2     Mo3     2.413   .     S
+Mo3    S7      2.413   .     S
+Mo3    S4      2.413   1_455 S
+Mo3    S8      2.413   .     S
+Mo3    S5      2.413   1_455 S
+S4     Mo12    2.413   1_545 S
+S4     Mo3     2.413   1_655 S
+S4     Mo6     2.413   .     S
+S5     Mo12    2.413   1_545 S
+S5     Mo3     2.413   1_655 S
+S5     Mo6     2.413   .     S
+Mo6    S10     2.413   .     S
+Mo6    S11     2.413   .     S
+S7     Mo12    2.413   .     S
+S7     Mo9     2.413   .     S
+S8     Mo12    2.413   .     S
+S8     Mo9     2.413   .     S
+Mo9    S1      2.413   1_565 S
+Mo9    S10     2.413   1_455 S
+Mo9    S2      2.413   1_565 S
+Mo9    S11     2.413   1_455 S
+S10    Mo9     2.413   1_655 S
+S10    Mo12    2.413   .     S
+S11    Mo9     2.413   1_655 S
+S11    Mo12    2.413   .     S
+Mo12   S4      2.413   1_565 S
+Mo12   S5      2.413   1_565 S
